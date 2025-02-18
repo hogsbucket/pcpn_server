@@ -96,7 +96,6 @@ Future<void> server() async {
           'diagnosis': element.assoc()['DIAGNOSIS']!,
         });
       }
-      print(data);
     } else {
       data = [];
     }
@@ -154,7 +153,6 @@ Future<void> server() async {
           'total': element.assoc()['TOTAL']!,
         });
       }
-      print(data);
     } else {
       data = [];
     }
@@ -325,7 +323,7 @@ Future<void> server() async {
 
 Future<void> mySqlConenction() async {
   conn = await MySQLConnection.createConnection(
-    host: "localhost", 
+    host: "172.17.254.11", 
     port: 3306, 
     userName: "Admin", 
     password: "admin",
