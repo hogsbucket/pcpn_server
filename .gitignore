@@ -1,0 +1,11 @@
+# Dart related
+.dart_tool/
+.packages
+build/
+
+# IDE files
+.idea/
+.vscode/
+
+# MacOS specific
+.DS_Store
